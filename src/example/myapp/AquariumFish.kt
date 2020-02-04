@@ -17,3 +17,4 @@ class PrintingFishAction(val food: String) : FishAction {
         println(food)
     }
 }
+

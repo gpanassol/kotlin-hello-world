@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ddc72a4-3b5e-42e9-8459-e7fb245c34c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/example/myapp/decor/Decoration.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/example/myapp/AquariumFish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/example/myapp/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/example/myapp/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/example/myapp/Plecostomus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/example/myapp/Plecostomus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/example/myapp/Shark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/example/myapp/Shark.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example/myapp/AquariumFish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/myapp/AquariumFish.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/myapp/Plecostomus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/myapp/Plecostomus.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/myapp/Shark.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/myapp/Shark.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
       <recent name="$PROJECT_DIR$/src/example/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.example.myapp.MainKt">
+  <component name="RunManager" selected="Kotlin.example.myapp.decor.DecorationKt">
     <configuration name="example.myapp.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <option name="VM_PARAMETERS" />
@@ -57,6 +61,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="example.myapp.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example.myapp.decor.DecorationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="example.myapp.decor.DecorationKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.example.myapp.decor.DecorationKt" />
         <item itemvalue="Kotlin.example.myapp.MainKt" />
         <item itemvalue="Kotlin.example.test.AppKt" />
       </list>
@@ -100,25 +118,25 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1580324688374" />
-    <state width="1320" height="142" key="GridCell.Tab.0.bottom" timestamp="1580752736924">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1253" height="154" key="GridCell.Tab.0.bottom" timestamp="1580841028408">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1320" height="142" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580752736924" />
-    <state width="1253" height="160" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1580730958029" />
-    <state width="1320" height="142" key="GridCell.Tab.0.center" timestamp="1580752736924">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1320" height="331" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580837984665" />
+    <state width="1253" height="154" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1580841028408" />
+    <state width="1253" height="154" key="GridCell.Tab.0.center" timestamp="1580841028408">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1320" height="142" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580752736924" />
-    <state width="1253" height="160" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1580730958029" />
-    <state width="1320" height="142" key="GridCell.Tab.0.left" timestamp="1580752736924">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1320" height="331" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580837984665" />
+    <state width="1253" height="154" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1580841028408" />
+    <state width="1253" height="154" key="GridCell.Tab.0.left" timestamp="1580841028407">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1320" height="142" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580752736924" />
-    <state width="1253" height="160" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1580730958028" />
-    <state width="1320" height="142" key="GridCell.Tab.0.right" timestamp="1580752736924">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1320" height="331" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580837984665" />
+    <state width="1253" height="154" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1580841028407" />
+    <state width="1253" height="154" key="GridCell.Tab.0.right" timestamp="1580841028408">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1320" height="142" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580752736924" />
-    <state width="1253" height="160" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1580730958029" />
+    <state width="1320" height="331" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580837984665" />
+    <state width="1253" height="154" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1580841028408" />
   </component>
 </project>
