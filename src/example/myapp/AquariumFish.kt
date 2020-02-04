@@ -1,7 +1,11 @@
 package example.myapp
 
+//propriedades
 abstract class AquariumFish {
     abstract val color: String
 }
 
-interface FishAction
+//comportamento
+interface FishAction {
+    fun eat()
+}
